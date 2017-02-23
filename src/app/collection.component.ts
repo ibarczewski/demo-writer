@@ -57,7 +57,7 @@ export class CollectionComponent implements OnInit {
     let song8 = new Song();
     song8.path = 'http://sampleswap.org/mp3/artist/5101/Peppy--The-Firing-Squad_YMXB-160.mp3';
     song8.notes = 'Final version.';
-    song8.date = '03/2/2017';
+    song8.date = '03/23/2017';
     songs2.push(song8);
 
     collection2.title = 'Metal Jam';

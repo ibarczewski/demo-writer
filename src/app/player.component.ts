@@ -5,10 +5,6 @@ import {OnInit, Input} from "@angular/core";
   selector: 'player',
   templateUrl: 'views/player.component.html'
 })
-export class PlayerComponent implements OnInit {
+export class PlayerComponent {
   @Input() public song: Song;
-
-  ngOnInit(){
-
-  }
 }
