@@ -1,5 +1,5 @@
 export class Song {
-  public path: String;
-  public date: String;
-  public notes: String;
+  public path: string;
+  public date: string;
+  public notes: string;
 }
