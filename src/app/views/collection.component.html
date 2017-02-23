@@ -3,8 +3,8 @@
     {{collection.title}}
   </h1>
   <div *ngIf="collection.isDisplayed">
-    <div  style="border-style: solid; margin-bottom: 10px;" *ngFor="let song of collection.songs">
-      <player  [song]="song"></player>
+    <div class="player-container" *ngFor="let song of collection.songs">
+      <player [song]="song"></player>
     </div>
   </div>
 </div>
