@@ -4,6 +4,7 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import {CollectionComponent} from "./collection.component";
 import {PlayerComponent} from "./player.component";
+import {CollectionsService} from "./services/collections-service";
 
 describe('AppComponent', () => {
   beforeEach(() => {
@@ -11,6 +12,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent, CollectionComponent, PlayerComponent
       ],
+      providers: [CollectionsService]
     });
 
     TestBed.compileComponents();

@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import {PlayerComponent} from "./player.component";
 import {CollectionComponent} from "./collection.component";
+import {CollectionsService} from "./services/collections-service";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import {CollectionComponent} from "./collection.component";
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [CollectionsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
