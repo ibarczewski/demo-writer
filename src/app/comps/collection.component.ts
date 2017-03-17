@@ -1,11 +1,11 @@
 import {Component} from "@angular/core";
-import {Song} from "./models/song";
+import {Song} from "../models/song";
 import {OnInit} from "@angular/core";
-import {Collection} from "./models/collection";
-import {CollectionsService} from "./services/collections-service";
+import {Collection} from "../models/collection";
+import {CollectionsService} from "../services/collections-service";
 @Component({
   selector: 'collection',
-  templateUrl: 'views/collection.component.html'
+  templateUrl: '../views/collection.component.html'
 })
 export class CollectionComponent implements OnInit {
   public collections: Array<Collection> = new Array<Collection>();

@@ -1,9 +1,9 @@
 import {TestBed} from "@angular/core/testing";
 import {CollectionComponent} from "./collection.component";
-import {Collection} from "./models/collection";
+import {Collection} from "../models/collection";
 import * as faker from 'faker';
 import {PlayerComponent} from "./player.component";
-import {CollectionsService} from "./services/collections-service";
+import {CollectionsService} from "../services/collections-service";
 import {Observable} from "rxjs";
 describe('Collection Component', () => {
   let _fixture;
